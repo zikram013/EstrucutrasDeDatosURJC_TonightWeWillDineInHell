@@ -69,7 +69,7 @@ BEGIN
    //new(punteroAuxiliarMostrar);
      for i:=1 to maxEmpleados do
          begin
-            for j:=1 to maxEmpleados-i do
+            for j:=0 to maxEmpleados-i do
             begin
                if(listado[i]^.salarioEmpleado > listado[i+1]^.salarioEmpleado)then
                begin
