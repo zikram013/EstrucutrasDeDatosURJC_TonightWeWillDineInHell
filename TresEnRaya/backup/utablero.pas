@@ -20,7 +20,7 @@ procedure ponerFicha(player1:TJugador;player2:TJugador;var posicion:Tcoordenada;
 
 implementation
 (*Desarrollo de los metodos*)
-procedure iniciar(x:integer;y:integer);
+procedure iniciar(x:integer;y:integer;ficha:char);
 const
 FICHA_VACIA = '-';
 MAX = 3;
@@ -72,7 +72,7 @@ begin
     until CoordenadaValida(posicion)=true;
      x:=dameFila(posicion);
      y:=dameColumna(posicion);
-     write(iniciar(x,y));
+     iniciar(x,y,ficha);
     solicitarCoordenada(posicion);
 
 

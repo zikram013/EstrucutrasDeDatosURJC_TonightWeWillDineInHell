@@ -14,7 +14,7 @@ begin
   inicioJugadores(player1,player2);
   ponerFicha(player1,player2,posicion,msg);
   solicitarCoordenada(posicion);
-  write(iniciar(x,y));
+  iniciar(x,y);
  // iniciar();
 
 

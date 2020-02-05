@@ -2,5 +2,4 @@
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1331391477"/>
   <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiD:\Repositorios\Punteros\TresEnRaya\lib\x86_64-win64 -FuD:\Repositorios\Punteros\TresEnRaya\ -FUD:\Repositorios\Punteros\TresEnRaya\lib\x86_64-win64\ -FED:\Repositorios\Punteros\TresEnRaya\ -oD:\Repositorios\Punteros\TresEnRaya\tresenraya.exe tresenraya.lpr"/>
-  <Complete Value="False"/>
 </CONFIG>

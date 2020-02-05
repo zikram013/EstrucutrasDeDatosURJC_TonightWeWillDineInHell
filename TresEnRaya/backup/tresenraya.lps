@@ -8,7 +8,8 @@
       <Unit0>
         <Filename Value="tresenraya.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="3" Y="16"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="22" Y="17"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -16,10 +17,9 @@
         <Filename Value="utablero.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uTablero"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="48"/>
-        <CursorPos X="25" Y="75"/>
+        <TopLine Value="22"/>
+        <CursorPos X="6" Y="75"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -33,123 +33,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="7" Column="61"/>
+        <Caret Line="11" Column="45"/>
       </Position1>
       <Position2>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="11" Column="45"/>
+        <Caret Line="5" Column="12"/>
       </Position2>
       <Position3>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="5" Column="12"/>
+        <Caret Line="10" Column="61"/>
       </Position3>
       <Position4>
-        <Filename Value="tresenraya.lpr"/>
-        <Caret Line="10" Column="61"/>
-      </Position4>
-      <Position5>
         <Filename Value="utablero.pas"/>
         <Caret Line="7" Column="25"/>
+      </Position4>
+      <Position5>
+        <Filename Value="tresenraya.lpr"/>
+        <Caret Line="10" Column="34"/>
       </Position5>
       <Position6>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="10" Column="34"/>
+        <Caret Line="11" Column="41"/>
       </Position6>
       <Position7>
-        <Filename Value="tresenraya.lpr"/>
-        <Caret Line="11" Column="41"/>
+        <Filename Value="utablero.pas"/>
+        <Caret Line="41" Column="18" TopLine="26"/>
       </Position7>
       <Position8>
         <Filename Value="utablero.pas"/>
-        <Caret Line="41" Column="18" TopLine="26"/>
+        <Caret Line="34" Column="17" TopLine="21"/>
       </Position8>
       <Position9>
         <Filename Value="utablero.pas"/>
-        <Caret Line="34" Column="17" TopLine="21"/>
+        <Caret Line="61" TopLine="32"/>
       </Position9>
       <Position10>
         <Filename Value="utablero.pas"/>
-        <Caret Line="61" TopLine="32"/>
+        <Caret Line="64" Column="43" TopLine="34"/>
       </Position10>
       <Position11>
         <Filename Value="utablero.pas"/>
-        <Caret Line="64" Column="43" TopLine="34"/>
+        <Caret Line="33" Column="44" TopLine="29"/>
       </Position11>
       <Position12>
         <Filename Value="utablero.pas"/>
-        <Caret Line="33" Column="44" TopLine="29"/>
+        <Caret Line="13" Column="10"/>
       </Position12>
       <Position13>
         <Filename Value="utablero.pas"/>
-        <Caret Line="13" Column="10"/>
+        <Caret Line="19" Column="19" TopLine="2"/>
       </Position13>
       <Position14>
         <Filename Value="utablero.pas"/>
-        <Caret Line="19" Column="19" TopLine="2"/>
+        <Caret Line="56" Column="29" TopLine="29"/>
       </Position14>
       <Position15>
-        <Filename Value="utablero.pas"/>
-        <Caret Line="56" Column="29" TopLine="29"/>
+        <Filename Value="tresenraya.lpr"/>
+        <Caret Line="12" Column="3"/>
       </Position15>
       <Position16>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="12" Column="3"/>
+        <Caret Line="15" Column="4"/>
       </Position16>
       <Position17>
         <Filename Value="tresenraya.lpr"/>
-        <Caret Line="15" Column="4"/>
+        <Caret Line="11" Column="30"/>
       </Position17>
       <Position18>
-        <Filename Value="tresenraya.lpr"/>
-        <Caret Line="11" Column="30"/>
+        <Filename Value="utablero.pas"/>
+        <Caret Line="36" Column="44" TopLine="34"/>
       </Position18>
       <Position19>
         <Filename Value="utablero.pas"/>
-        <Caret Line="36" Column="44" TopLine="34"/>
+        <Caret Line="12" Column="29"/>
       </Position19>
       <Position20>
         <Filename Value="utablero.pas"/>
-        <Caret Line="12" Column="29"/>
+        <Caret Line="20" Column="29" TopLine="3"/>
       </Position20>
       <Position21>
         <Filename Value="utablero.pas"/>
-        <Caret Line="20" Column="29" TopLine="3"/>
+        <Caret Line="60" Column="23" TopLine="40"/>
       </Position21>
       <Position22>
         <Filename Value="utablero.pas"/>
-        <Caret Line="60" Column="23" TopLine="40"/>
+        <Caret Line="36" Column="55" TopLine="19"/>
       </Position22>
       <Position23>
         <Filename Value="utablero.pas"/>
-        <Caret Line="36" Column="55" TopLine="19"/>
+        <Caret Line="69" Column="45" TopLine="39"/>
       </Position23>
       <Position24>
         <Filename Value="utablero.pas"/>
-        <Caret Line="69" Column="45" TopLine="39"/>
+        <Caret Line="74" Column="44" TopLine="44"/>
       </Position24>
       <Position25>
         <Filename Value="utablero.pas"/>
-        <Caret Line="74" Column="44" TopLine="44"/>
+        <Caret Line="71" Column="10" TopLine="15"/>
       </Position25>
       <Position26>
         <Filename Value="utablero.pas"/>
-        <Caret Line="71" Column="10" TopLine="15"/>
+        <Caret Line="39" Column="50" TopLine="22"/>
       </Position26>
       <Position27>
         <Filename Value="utablero.pas"/>
-        <Caret Line="39" Column="50" TopLine="22"/>
+        <Caret Line="55" Column="16" TopLine="23"/>
       </Position27>
       <Position28>
         <Filename Value="utablero.pas"/>
-        <Caret Line="55" Column="16" TopLine="23"/>
+        <Caret Line="32" Column="19" TopLine="16"/>
       </Position28>
       <Position29>
         <Filename Value="utablero.pas"/>
-        <Caret Line="32" Column="19" TopLine="16"/>
+        <Caret Line="49" Column="49" TopLine="33"/>
       </Position29>
       <Position30>
         <Filename Value="utablero.pas"/>
-        <Caret Line="49" Column="49" TopLine="33"/>
+        <Caret Line="75" Column="25" TopLine="48"/>
       </Position30>
     </JumpHistory>
     <RunParams>
