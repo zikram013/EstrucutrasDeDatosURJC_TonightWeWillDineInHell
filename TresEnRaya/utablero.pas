@@ -6,8 +6,6 @@ uses
 var
 player1,player2:ujugador;
 posicion:ucoordenada
-coordenadaFila:integer;
-coordenadaColumna:integer;
 (*Cabeceras de los metodos*)
 procedure iniciar();
 procedure inicioJugadores(var player1:ujugador, var player2:ujugador);
@@ -45,11 +43,11 @@ end;
 
 procedure solicitarCoordenada(var pos:ucoordenada);
 begin
-     pedirCoordenada(pos);
-     if(CoordenadaValida==true) then
-     begin
 
-     end;
+    repeat
+           pedirCoordenada(pos);
+          coordenadaValida(pos)
+      until CoordenadaValida(pos)=true;
 
 end.
 
