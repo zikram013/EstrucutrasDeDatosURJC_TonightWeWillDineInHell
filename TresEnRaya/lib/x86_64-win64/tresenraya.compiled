@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1331391477"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiC:\Users\Markitos\Desktop\ED\TresEnRaya\lib\x86_64-win64 -FuC:\Users\Markitos\Desktop\ED\TresEnRaya\ -FUC:\Users\Markitos\Desktop\ED\TresEnRaya\lib\x86_64-win64\ -FEC:\Users\Markitos\Desktop\ED\TresEnRaya\ -oC:\Users\Markitos\Desktop\ED\TresEnRaya\tresenraya.exe tresenraya.lpr"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiD:\Repositorios\Punteros\TresEnRaya\lib\x86_64-win64 -FuD:\Repositorios\Punteros\TresEnRaya\ -FUD:\Repositorios\Punteros\TresEnRaya\lib\x86_64-win64\ -FED:\Repositorios\Punteros\TresEnRaya\ -oD:\Repositorios\Punteros\TresEnRaya\tresenraya.exe tresenraya.lpr"/>
   <Complete Value="False"/>
 </CONFIG>

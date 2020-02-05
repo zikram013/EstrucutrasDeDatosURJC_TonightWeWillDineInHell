@@ -4,79 +4,38 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="4">
       <Unit0>
         <Filename Value="punteros.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="51"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
         <CursorPos X="21" Y="72"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="23"/>
       </Unit0>
       <Unit1>
         <Filename Value="D:\DescargasGoogleChrome\Practica0.pas"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="55"/>
         <CursorPos X="32" Y="35"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="TresEnRaya\tresenraya.lpi"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="TresEnRaya\utablero.pas"/>
+        <UnitName Value="uTablero"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="59" Y="32"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory Count="13" HistoryIndex="12">
-      <Position1>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="68" Column="29" TopLine="18"/>
-      </Position1>
-      <Position2>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="66" Column="38" TopLine="47"/>
-      </Position2>
-      <Position3>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="76" TopLine="53"/>
-      </Position3>
-      <Position4>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="71" Column="68" TopLine="38"/>
-      </Position4>
-      <Position5>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="58" Column="39" TopLine="32"/>
-      </Position5>
-      <Position6>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="94" Column="34" TopLine="62"/>
-      </Position6>
-      <Position7>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="93" Column="44" TopLine="62"/>
-      </Position7>
-      <Position8>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="94" Column="34" TopLine="62"/>
-      </Position8>
-      <Position9>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="92" Column="41" TopLine="86"/>
-      </Position9>
-      <Position10>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="106" Column="25" TopLine="13"/>
-      </Position10>
-      <Position11>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="71" Column="46" TopLine="67"/>
-      </Position11>
-      <Position12>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="97" Column="34" TopLine="71"/>
-      </Position12>
-      <Position13>
-        <Filename Value="punteros.pas"/>
-        <Caret Line="3" Column="17"/>
-      </Position13>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>

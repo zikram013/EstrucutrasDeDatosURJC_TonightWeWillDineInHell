@@ -1,19 +1,19 @@
 unit uTablero;
 
-
-
 interface
 uses
  ujugador,ucoordenada;
-var ficha:char;
-jugador1,jugador2:ujugador;
+var
+player1,player2:ujugador;
+posicion:ucoordenada
+coordenadaFila:integer;
+coordenadaColumna:integer;
 (*Cabeceras de los metodos*)
 procedure iniciar();
-procedure inicioJugadores(var jugador1:ujugador; var jugador2:ujugador);
+procedure inicioJugadores(var player1:ujugador, var player2:ujugador);
+procedure solicitarCoordenada(var pos:ucoordenada);
 
 implementation
-uses
- ujugador,ucoordenada;
 (*Desarrollo de los metodos*)
 procedure iniciar();
 const
@@ -37,11 +37,19 @@ for fila:=1 to MAX do
 
 end;
 
-procedure inicioJugadores(var jugador1:ujugador;var jugador2:ujugador);
+procedure inicioJugadores(var player1:ujugador, var player2:ujugador);
 begin
-    Crear('x',jugador1);
-    Crear('o',jugador2);
+    Crear('x',player1);
+    Crear('o',player2);
 end;
+
+procedure solicitarCoordenada(var pos:ucoordenada);
+begin
+     pedirCoordenada(pos);
+     if(CoordenadaValida==true) then
+     begin
+
+     end;
 
 end.
 
