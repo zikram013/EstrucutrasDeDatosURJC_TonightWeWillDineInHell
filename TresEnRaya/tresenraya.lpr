@@ -1,11 +1,22 @@
 program tresenraya;
 uses ucoordenada,ujugador,uTablero;
-
+var
+  player1:TJugador;
+  player2:TJugador;
+  posicion:Tcoordenada;
+  x,y:integer;
+  msg:string;
+  ficha:char;
+  fichaX:char;
+  fichaY:char;
 begin
 
-  iniciar();
-  inicioJugadores(var player1:ujugador; var player2:ujugador);
-  procedure solicitarCoordenada(var pos:ucoordenada);
+  inicioJugadores(player1,player2);
+  ponerFicha(player1,player2,posicion,msg);
+  solicitarCoordenada(posicion);
+  iniciar(x,y);
+ // iniciar();
+
 
 end.
 
