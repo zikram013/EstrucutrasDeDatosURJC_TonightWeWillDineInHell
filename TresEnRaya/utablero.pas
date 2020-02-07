@@ -103,9 +103,17 @@ begin
                 if (tablero[fila,columna]='x')then
                 begin
                  contadorX:=contadorX+1;
+                 if(contadorX=3)then
+                 begin
+                  //Realizar el metodo para cantar victoria para las x
+                 end;
                 end;
                 if (tablero[fila,columna]='o')then
                 contadorO:=contadorO+1;
+                if(contadorO=3)then
+                begin
+                //Realizar el metodo para cantar victoria para las y
+                end;
                end;
          end;
 
