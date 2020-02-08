@@ -26,7 +26,9 @@ procedure iniciar();
 procedure inicioJugadores(var player1:TJugador; var player2:TJugador);
 procedure solicitarCoordenada(var posicion:Tcoordenada;var ficha:char);
 procedure ponerFicha(player1:TJugador;player2:TJugador;var posicion:Tcoordenada;msg:string);
-procedure victoria(player1:TJugador;player2:TJugador);
+//procedure victoria(player1:TJugador;player2:TJugador);
+procedure fin();
+//procedure empate();
 
 implementation
 (*Desarrollo de los metodos*)
@@ -63,7 +65,9 @@ column:integer;
 valida:boolean;
 contadorX:integer;
 contadorO:integer;
+ganador:boolean;
 begin
+        ganador:=false;
         contadorX:=0;
         contadorO:=0;
      fil:=DameFila(posicion);
@@ -103,23 +107,87 @@ begin
                 if (tablero[fila,columna]='x')then
                 begin
                  contadorX:=contadorX+1;
-                  if(contadorX=3)then
-                  begin 
-                   //Realizar el metodo para cantar victoria para las x
-                    if(tablero[fila,1]='x')and(tablero[fila,2]='x')and(tablero[fila,3]='x')then
-                    begin
-                    end;
+
                    end;
-                end;
+
                 if (tablero[fila,columna]='o')then
-                contadorO:=contadorO+1;
-                if(contadorO=3)then
                 begin
-                //Realizar el metodo para cantar victoria para las y
+                      contadorO:=contadorO+1;
                 end;
+
+
                end;
          end;
 
+
+
+    //condition vicotry
+
+        if(contadorX=3) or(contadorO=3)then
+        begin
+              //filas
+              for fila:=1 to MAX do
+                   begin
+                    if(tablero[fila,1]='x')and(tablero[fila,2]='x')and(tablero[fila,3]='x')then
+                    begin
+                        CantarVictoria(player1);
+                        ganador:=true;
+                    end;
+                       if(tablero[fila,1]='o')and(tablero[fila,2]='o')and(tablero[fila,3]='o')then
+                       begin
+                         CantarVictoria(player2);
+                         ganador:=true;
+                       end;
+
+                   end;
+               //columnas
+              for columna:=1 to MAX do
+                   begin
+                    if(tablero[1,columna]='x')and(tablero[2,columna]='x')and(tablero[3,columna]='x')then
+                    begin
+                       CantarVictoria(player1);
+                       ganador:=true;
+                    end;
+                       if(tablero[1,columna]='o')and(tablero[2,columna]='o')and(tablero[3,columna]='o')then
+                       begin
+                       CantarVictoria(player2);
+                       ganador:=true;
+                       end;
+
+                   end;
+              //diagonales
+              if(tablero[1,1]='x')and(tablero[2,2]='x')and(tablero[3,3]='x')then
+              begin
+                   CantarVictoria(player1);
+                   ganador:=true;
+              end;
+              if(tablero[1,1]='o')and(tablero[2,2]='o')and(tablero[3,3]='o')then
+              begin
+                   CantarVictoria(player2);
+                   ganador:=true;
+              end;
+              if(tablero[1,3]='o')and(tablero[2,2]='o')and(tablero[3,1]='o')then
+              begin
+                   CantarVictoria(player2);
+                   ganador:=true;
+              end;
+              if(tablero[1,3]='x')and(tablero[2,2]='x')and(tablero[3,1]='x')then
+              begin
+                   CantarVictoria(player1);
+                   ganador:=true;
+              end;
+
+        end;
+
+        if(ganador=true)then
+        begin
+             fin();
+        end;
+
+        (*if(ganador=false)then
+        begin
+             empate();
+        end; *)
 
 end;
 
@@ -144,12 +212,26 @@ begin
 
 end;
 
-procedure victoria(player1:TJugador;player2:TJugador);
+(*procedure victoria(player1:TJugador;player2:TJugador);
 begin
 
      CantarVictoria(player1);
      CantarVictoria(player2);
+end;  *)
+
+procedure fin();
+begin
+     writeln('fin del juego');
+     readln();
+     iniciar();
 end;
+
+(*procedure empate();
+begin
+     writeln('empate');
+     readln();
+
+end;*)
 
 end.
 

@@ -16,7 +16,9 @@ begin
   ponerFicha(player1,player2,posicion,msg);
   solicitarCoordenada(posicion,ficha);
   ponerFicha(player1,player2,posicion,msg);
-  victoria(player1,player2);
+  //victoria(player1,player2);
+  fin();
+  //empate();
 
 
 
