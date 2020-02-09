@@ -18,7 +18,7 @@ begin
   ponerFicha(player1,player2,posicion,msg);
   //victoria(player1,player2);
   fin();
-  empate();
+  //empate();
 
 
 

@@ -28,7 +28,7 @@ procedure solicitarCoordenada(var posicion:Tcoordenada;var ficha:char);
 procedure ponerFicha(player1:TJugador;player2:TJugador;var posicion:Tcoordenada;msg:string);
 //procedure victoria(player1:TJugador;player2:TJugador);
 procedure fin();
-//procedure empate();
+procedure empate();
 
 implementation
 (*Desarrollo de los metodos*)
@@ -66,6 +66,7 @@ valida:boolean;
 contadorX:integer;
 contadorO:integer;
 ganador:boolean;
+buenaCoordenada:boolean;
 begin
         ganador:=false;
         contadorX:=0;
@@ -88,6 +89,9 @@ begin
                     tablero[fila,columna]:=ficha;
 
                 end;
+
+
+
 
                 if (fil<>fila)and(column<>columna)and(tablero[fila,columna]<>'o')and(tablero[fila,columna]<>'x')then
                 begin
@@ -184,10 +188,10 @@ begin
              fin();
         end;
 
-        (*if(ganador=false)then
+        if(ganador=false)and(contadorX=3)and(contadorO=3)then
         begin
              empate();
-        end; *)
+        end;
 
 end;
 
@@ -226,12 +230,12 @@ begin
      iniciar();
 end;
 
-(*procedure empate();
+procedure empate();
 begin
      writeln('empate');
      readln();
 
-end;*)
+end;
 
 end.
 

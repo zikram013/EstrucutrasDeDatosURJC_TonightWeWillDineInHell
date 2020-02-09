@@ -66,6 +66,7 @@ valida:boolean;
 contadorX:integer;
 contadorO:integer;
 ganador:boolean;
+buenaCoordenada:boolean;
 begin
         ganador:=false;
         contadorX:=0;
@@ -88,6 +89,18 @@ begin
                     tablero[fila,columna]:=ficha;
 
                 end;
+
+
+                  if (fil=fila)and(column=columna)and (tablero[fila,columna]=FICHA_VACIA)and(tablero[fila,columna]='x')and (tablero[fila,columna]='o') then
+                  begin
+                          repeat
+                          buenaCoordenada:=coordenadaValida(posicion);
+
+                          until buenaCoordenada=true;
+
+                        tablero[fila,columna]:=ficha;
+                  end;
+
 
                 if (fil<>fila)and(column<>columna)and(tablero[fila,columna]<>'o')and(tablero[fila,columna]<>'x')then
                 begin
@@ -184,7 +197,7 @@ begin
              fin();
         end;
 
-        if(ganador=false)then
+        if(ganador=false)and(contadorX=3)and(contadorO=3)then
         begin
              empate();
         end;

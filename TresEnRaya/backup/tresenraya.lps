@@ -8,7 +8,7 @@
       <Unit0>
         <Filename Value="tresenraya.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="12" Y="21"/>
+        <CursorPos X="60" Y="21"/>
         <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -18,8 +18,8 @@
         <UnitName Value="uTablero"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="203"/>
-        <CursorPos X="6" Y="233"/>
+        <TopLine Value="84"/>
+        <CursorPos X="56" Y="101"/>
         <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit1>
