@@ -8,16 +8,16 @@
       <Unit0>
         <Filename Value="mainLista.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="uelemento.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="5" Y="23"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit1>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
