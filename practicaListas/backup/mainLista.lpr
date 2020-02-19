@@ -1,6 +1,6 @@
 program mainLista;
 
-uses uPersona,uAryaList;
+uses unit1;
 
 begin
 end.
