@@ -1,0 +1,23 @@
+procedure Eliminar (var lista:Tlista;e:tElemento);
+var
+	iterator,aux:TLista
+begin
+	if not(EsListaVacia(lista))then
+	begin
+		iterator:=lista;
+		aux:=iterator^.sig;
+		if(EsIgual(e,iterator^.info))then
+			lista:=aux;
+			dispose(iterator);
+		else
+			while(aux<>NIL and NOT(Esigual(e,aux^.info))then
+			begin
+				iterator:=aux;
+				aux:=aux^.sig;
+			end;
+			if((aux<>NIL) and (EsIgual(aux^.info,e))then
+			begin
+				iterator^.sig:=aux^.sig;
+				dispose(aux);
+			end;
+end.
