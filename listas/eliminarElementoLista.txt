@@ -1,3 +1,5 @@
+para hacer el eliminar todas las apariciones tienes que meter el primer if dentro del while
+
 procedure Eliminar (var lista:Tlista;e:tElemento);
 var
 	iterator,aux:TLista
