@@ -1,0 +1,3 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.wst.sse.ui,1.1.2.v200809120159,org.eclipse.wst.sse.ui,1585130078300
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,5.0.1.200901300802,org.eclipse.cdt.debug.mi.ui,1585130078306

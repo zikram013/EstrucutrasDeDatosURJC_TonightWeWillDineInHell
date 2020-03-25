@@ -1,0 +1,114 @@
+!SESSION 2020-03-25 10:53:43.529 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.549
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.550
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.550
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.551
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.552
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.552
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.552
+!MESSAGE Replacing:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.553
+!MESSAGE Replaced:debugging_engine_id=org.eclipse.dltk.ruby.basicdebugger
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.553
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.554
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.554
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.554
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.556
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.556
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.557
+!MESSAGE Replacing:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.557
+!MESSAGE Replaced:#Fri Jan 30 20:03:50 CET 2009
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.558
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.558
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.558
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.559
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.559
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="<<<$wsne>>>/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.560
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.560
+!MESSAGE Replacing:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.560
+!MESSAGE Replaced:org.eclipse.dltk.launching.PREF_INTERPRETER_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<interpreterSettings>\r\n<defaultInterpreter environment\="org.eclipse.dltk.core.environment.localEnvironment" id\="66,org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType13,1233342113270" nature\="org.eclipse.dltk.ruby.core.nature"/>\r\n<interpreterType id\="org.eclipse.dltk.internal.debug.ui.launcher.GenericRubyInstallType">\r\n<interpreter environmentId\="org.eclipse.dltk.core.environment.localEnvironment" id\="1233342113270" name\="ruby.exe" path\="C\:/Program Files (x86)/EclipseGavab 2.0/ruby-1.8.6-i386-mswin32/bin/ruby.exe"/>\r\n</interpreterType>\r\n</interpreterSettings>\r\n
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.565
+!MESSAGE Replacing:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.566
+!MESSAGE Replaced:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.566
+!MESSAGE Replacing:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.567
+!MESSAGE Replaced:#Wed Jan 09 12:43:40 CET 2008
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.567
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.567
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.568
+!MESSAGE Replacing:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.568
+!MESSAGE Replaced:eclipse.preferences.version=1
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.569
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.569
+!MESSAGE Replaced:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.569
+!MESSAGE Replacing:EXECUTABLE_NAME=<<<$ws>>>\\ghc-6.8.1\\bin\\ghc.exe
+
+!ENTRY es.gavab.IDEConfigurator 1 0 2020-03-25 10:54:15.570
+!MESSAGE Replaced:EXECUTABLE_NAME=C\:\\Program Files (x86)\\EclipseGavab 2.0\\ghc-6.8.1\\bin\\ghc.exe

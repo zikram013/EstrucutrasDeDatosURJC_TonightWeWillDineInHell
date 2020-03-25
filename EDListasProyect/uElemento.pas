@@ -7,6 +7,7 @@ TYPE
 
   PROCEDURE Asignar(valueIn: TElemento; VAR valueOut: TElemento);
   FUNCTION EsIgual(v1,v2: TElemento):boolean;
+  function esMayor(v1,v2:TElemento):boolean;
 
 implementation
 
@@ -20,4 +21,9 @@ implementation
     EsIgual := v1 = v2;
   end;
 
+
+	function esMayor(v1,v2:TElemento):boolean;
+	begin
+		esMayor:=v1>v2;
+	end;
 end.
